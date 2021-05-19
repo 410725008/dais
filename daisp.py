@@ -2,7 +2,7 @@ from __future__ import print_function
 import os
 import shutil
 from libs.detect import detect
-import time
+
 input_path = "input"
 output_path = "output"
 dir = "./out/run/labels/"
