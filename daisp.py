@@ -15,7 +15,6 @@ while True:
         shutil.rmtree("./out")
     except:
         pass
-    t0 = time.time()
     try:
         detect(f,weights,0.5)
         txtpath = os.listdir(dir)[0]
@@ -32,6 +31,4 @@ while True:
         pass
     print("IN: " + f)
     print("OUT: " + data)
-    t1 = time.time()
-    print(t1-t0)
 
